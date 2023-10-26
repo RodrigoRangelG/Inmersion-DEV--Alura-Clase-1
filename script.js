@@ -1,7 +1,8 @@
-var valorEnDolar = 155.5;
-var cotizacionEnPesos = 18.36;
-var valorEnPeso = valorEnDolar*cotizacionEnPesos;
+var boredApeDolar = 43200;
+var cotizacionDolarAEuro = 0.95;
+var valorEnEuro = boredApeDolar*cotizacionDolarAEuro;
+var cotizacionEuroABitcoin = 0.00003;
+valorEnEuro = valorEnEuro.toFixed(2);
+var valorEnBitcoin = valorEnEuro*cotizacionEuroABitcoin;
 
-valorEnPeso = valorEnPeso.toFixed(2);
-
-alert("$"+valorEnPeso);
+alert("EUR: "+valorEnEuro + "\nBitcoin: "+valorEnBitcoin);
