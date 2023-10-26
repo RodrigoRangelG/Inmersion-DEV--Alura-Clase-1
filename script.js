@@ -4,5 +4,7 @@ var valorEnEuro = boredApeDolar*cotizacionDolarAEuro;
 var cotizacionEuroABitcoin = 0.00003;
 valorEnEuro = valorEnEuro.toFixed(2);
 var valorEnBitcoin = valorEnEuro*cotizacionEuroABitcoin;
-
-alert("EUR: "+valorEnEuro + "\nBitcoin: "+valorEnBitcoin);
+var nombre = "Rodrigo";
+var celsius = 40;
+var fahrenheit = celsius*9/5+32;
+alert("Hola "+nombre+", aqui estan los precios de un NFT Bored Ape:\n"+"EUR: "+valorEnEuro + "\nBitcoin: "+valorEnBitcoin+"\nPor otro lado, aqui está la conversión de "+celsius+" grados celsius a fahrenheit\nFahrenheit: "+fahrenheit);
